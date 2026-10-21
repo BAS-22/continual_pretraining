@@ -1,0 +1,3 @@
+t2w,dwi,adc,lesion
+promis567_align/case_0001/t2.nii.gz,promis567_align/case_0001/dwi.nii.gz,promis567_align/case_0001/adc.nii.gz,promis567_align/case_0001/lesion.nii.gz
+promis567_align/case_0002/t2.nii.gz,promis567_align/case_0002/dwi.nii.gz,promis567_align/case_0002/adc.nii.gz,promis567_align/case_0002/lesion.nii.gz

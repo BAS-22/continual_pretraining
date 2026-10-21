@@ -1,0 +1,55 @@
+__pycache__/
+*.py[cod]
+*.so
+
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+._*
+
+# Medical data (never commit)
+data/
+*.nii
+*.nii.gz
+*.npy
+*.npz
+*.h5
+*.mat
+*.dcm
+
+# Weights / checkpoints
+pretrained/*
+!pretrained/README.md
+*.pt
+*.pth
+*.pth.tar
+*.ckpt
+*.safetensors
+*.bin
+
+# Outputs / logs
+outputs/*
+!outputs/.gitkeep
+outputseg/
+sim_figures/
+runs/
+logs/
+events.out.tfevents.*
+*.o[0-9]*
+*.e[0-9]*
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Private working notes (keep out of the public repo)
+CLAUDE.md
+claude.md
+feedback.txt
+rebuttal.md
+paper.tex
